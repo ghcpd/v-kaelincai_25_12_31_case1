@@ -1,0 +1,56 @@
+[
+  {
+    "claim_id": "SAMPLE_001",
+    "policy_id": "POL_GRACE_0",
+    "claim_amount": 5000.0,
+    "claim_type": "water_damage",
+    "description": "Pipe burst in basement - This claim now processes correctly",
+    "policy": {
+      "policy_id": "POL_GRACE_0",
+      "policy_type": "home",
+      "status": "grace_period",
+      "deductible": 1000.0,
+      "coverage_limit": 50000.0,
+      "payout_rate": 0.85,
+      "claim_count": 1,
+      "total_claimed": 8000.0,
+      "grace_period_days": 0
+    }
+  },
+  {
+    "claim_id": "SAMPLE_002",
+    "policy_id": "POL_NORMAL",
+    "claim_amount": 3000.0,
+    "claim_type": "collision",
+    "description": "Car accident - This claim processes normally",
+    "policy": {
+      "policy_id": "POL_NORMAL",
+      "policy_type": "auto",
+      "status": "active",
+      "deductible": 500.0,
+      "coverage_limit": 20000.0,
+      "payout_rate": 0.9,
+      "claim_count": 0,
+      "total_claimed": 0.0,
+      "grace_period_days": 0
+    }
+  },
+  {
+    "claim_id": "SAMPLE_003",
+    "policy_id": "POL_GRACE_30",
+    "claim_amount": 2500.0,
+    "claim_type": "medical",
+    "description": "Emergency room visit - Grace period with 30 days",
+    "policy": {
+      "policy_id": "POL_GRACE_30",
+      "policy_type": "health",
+      "status": "grace_period",
+      "deductible": 300.0,
+      "coverage_limit": 15000.0,
+      "payout_rate": 0.8,
+      "claim_count": 2,
+      "total_claimed": 5000.0,
+      "grace_period_days": 30
+    }
+  }
+]

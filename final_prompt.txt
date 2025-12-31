@@ -1,0 +1,8 @@
+Please execute a full validation of the completed project.
+Your tasks include:
+Run the entire project using the provided environment setup and execution scripts.
+Verify that the system launches successfully without errors.
+Execute all automated test cases and ensure they all pass.
+Capture the outputs, logs, and any error traces if failures occur.
+Confirm that the project meets the expected functionality and behaves consistently under all provided test scenarios.
+Summarize the runtime results and explicitly state whether all test cases passed.
