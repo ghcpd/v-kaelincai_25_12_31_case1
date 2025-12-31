@@ -1,0 +1,20 @@
+[
+    {
+        "claim_id": "SAMPLE_001",
+        "policy_id": "P_BUG",
+        "claim_amount": 5000.0,
+        "claim_type": "water_damage",
+        "description": "Triggers grace period day 0 bug",
+        "policy": {
+            "policy_id": "P_BUG",
+            "policy_type": "home",
+            "status": "grace_period",
+            "deductible": 1000.0,
+            "coverage_limit": 50000.0,
+            "payout_rate": 0.9,
+            "claim_count": 1,
+            "total_claimed": 10000.0,
+            "grace_period_days": 0
+        }
+    }
+]
